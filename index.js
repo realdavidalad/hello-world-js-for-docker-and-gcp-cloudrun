@@ -15,6 +15,12 @@ app.get('/index', (req, res) => {
   res.json({ message: 'This is index page' });
 });
 
+app.get('/index2', (req, res) => {
+  res.json({ message: 'This is index2 page' });
+});
+
+
+
 // Start the server
 const port = process.env.PORT || 5001;
 app.listen(port, () => {
