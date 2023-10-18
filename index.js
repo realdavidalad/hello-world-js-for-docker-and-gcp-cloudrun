@@ -19,6 +19,10 @@ app.get('/index2', (req, res) => {
   res.json({ message: 'This is index2 page' });
 });
 
+app.get('/index3', (req, res) => {
+  res.json({ message: 'This is index3 page' });
+});
+
 
 
 // Start the server
