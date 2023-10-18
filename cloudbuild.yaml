@@ -15,10 +15,10 @@ steps:
       - '--region'
       - 'us-central1' # Change to your desired region
   - name: 'gcr.io/cloud-builders/gcloud'
-    args: ['run', 'services', 'add-iam-policy-binding', 'hello-world', '--member', 'allUsers', '--role', 'roles/run.invoker']
+    args: ['run', 'services', 'hello-world']
 
 options:
   logging: CLOUD_LOGGING_ONLY
-  
+
 substitutions:
   _REGION: 'us-central1' # Change to your desired region
