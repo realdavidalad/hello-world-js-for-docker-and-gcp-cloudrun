@@ -19,8 +19,8 @@ app.get('/index2', (req, res) => {
   res.json({ message: 'This is index2 page' });
 });
 
-app.get('/index4', (req, res) => {
-  res.json({ message: 'This is index3 page' });
+app.get('/index5', (req, res) => {
+  res.json({ message: 'This is index5 page' });
 });
 
 
