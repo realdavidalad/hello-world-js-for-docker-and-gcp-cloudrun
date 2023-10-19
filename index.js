@@ -23,6 +23,10 @@ app.get('/index5', (req, res) => {
   res.json({ message: 'This is index5 page' });
 });
 
+app.get('/index6', (req, res) => {
+  res.json({ message: 'This is index6 page' });
+});
+
 
 
 // Start the server
